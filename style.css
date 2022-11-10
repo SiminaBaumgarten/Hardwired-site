@@ -1,0 +1,172 @@
+* {
+  font-family: poppins-extralight, poppins, sans-serif;
+  color: #ffffff;
+}
+.header-content {
+  background-image: url(./img/background-header.webp);
+  background-size: cover;
+}
+
+.memberOf-img {
+  filter: hue-rotate(300deg) grayscale(80%);
+}
+
+#section2Video,
+#section3Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.font_2 {
+  line-height: 1.4em;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.font_3 {
+  line-height: 1.4em;
+  font-size: 26px;
+  font-family: montserrat, sans-serif;
+}
+
+.font_4 {
+  line-height: 1.6em;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.font_5 {
+  line-height: normal;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.font_6 {
+  font-size: 19px;
+  line-height: 2em;
+  letter-spacing: 0em;
+}
+.font_6 a {
+  color: #ffffff;
+}
+
+.bk_black {
+  background-color: black;
+}
+.component {
+  height: auto;
+  width: 340px;
+  background-color: #ffffff;
+  color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  left: 10%;
+  padding: 10px;
+}
+
+.component-lastTwoSection {
+  height: auto;
+  width: 340px;
+  background-color: #ffffff;
+  color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 10%;
+  padding: 10px;
+}
+
+.fonts-component {
+  font-size: 30px;
+  font-family: poppins-semibold, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+#section4Img {
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-size: cover;
+  object-position: 60% 90%;
+}
+
+.color_background_section_4 {
+  background-color: rgba(0, 6, 15, 0.6);
+}
+
+.color_background_section_3 {
+  background-color: rgba(128, 150, 137, 0.39);
+}
+
+.svg-border {
+  width: 55px;
+  height: auto;
+}
+
+.mt-20 {
+  margin-top: 120px;
+}
+.py-25 {
+  padding-top: 175px;
+  padding-bottom: 75px;
+}
+.D-img {
+  max-width: 70%;
+}
+.text-nav {
+  color: #406e28;
+  font-weight: bolder;
+}
+
+.as-seen-in-img {
+  width: 200px;
+  height: 62px;
+  filter: grayscale(100%) brightness(4);
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.partners-img {
+  filter: grayscale(1);
+  max-width: 100%;
+}
+.partn1 {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.carousel-img {
+  width: 408px;
+  height: 573px;
+  object-fit: cover;
+}
+
+.carousel-img:hover {
+  opacity: 0.5;
+}
+
+.carousel-txt {
+  color: rgba(199, 199, 199) !important;
+  line-height: 1.4em;
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: monserrat, sans-serif !important;
+}
+
+.background {
+  background-color: #00060f;
+}
+
+@media screen and (max-width: 992px) {
+  .w-20 {
+    width: 100%;
+  }
+}
