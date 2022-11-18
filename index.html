@@ -435,7 +435,7 @@
             class="d-flex justify-content-center text-align-center flex-column"
           >
             <img
-              class="img-fluid rounded"
+              class="img-fluid rounded section5-img"
               src="./img/section6green.jpg"
               alt="3Dprint"
             />
@@ -445,7 +445,7 @@
             class="d-flex justify-content-center text-align-center flex-column"
           >
             <img
-              class="img-fluid rounded"
+              class="img-fluid rounded section5-img"
               src="./img/section6orange.jpg"
               alt="3Dprint"
             />
@@ -455,7 +455,7 @@
             class="d-flex justify-content-center text-align-center flex-column"
           >
             <img
-              class="img-fluid rounded"
+              class="img-fluid rounded section5-img"
               src="./img/section6grey.jpg"
               alt="3Dprint"
             />
@@ -473,82 +473,582 @@
           <p class="font_2">Design Showcase (printed designs)</p>
         </div>
 
-        <ul class="slider px-5 d-flex container-fluid flex-column flex-md-row">
+        <ul
+          class="slider px-5 d-flex container-fluid flex-column flex-md-row"
+          id="captions-demo"
+        >
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel1.jpg">
-              <img
-                src="./img/carousel1.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel1.jpg"> -->
+            <img
+              src="./img/carousel1.jpg"
+              onclick="openModal(); currentSlide(1)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">War Dragon</p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel2.jpg">
-              <img
-                src="./img/carousel2.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel2.jpg"> -->
+            <img
+              src="./img/carousel2.jpg"
+              onclick="openModal(); currentSlide(2)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">XYZ Cube</p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel3.jpg"
-              ><img
-                src="./img/carousel3.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel3.jpg"
+              > -->
+            <img
+              src="./img/carousel3.jpg"
+              onclick="openModal(); currentSlide(3)"
+              class="img-fluid rounded carousel-img"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">
               Jetbot chassis, camera mount & wheels
             </p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel4.jpg"
-              ><img
-                src="./img/carousel4.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel4.jpg"
+              > -->
+            <img
+              src="./img/carousel4.jpg"
+              onclick="openModal(); currentSlide(4)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">Benchy</p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel5.jpg"
-              ><img
-                src="./img/carousel5.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel5.jpg" -->
+            ><img
+              src="./img/carousel5.jpg"
+              onclick="openModal(); currentSlide(5)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">Mecanum wheel</p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel6.jpg"
-              ><img
-                src="./img/carousel6.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel6.jpg"
+              > -->
+            <img
+              src="./img/carousel6.jpg"
+              onclick="openModal(); currentSlide(6)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">Print-In-Place Planetary Gear</p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel7.jpg"
-              ><img
-                src="./img/carousel7.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel7.jpg"
+              > -->
+            <img
+              src="./img/carousel7.jpg"
+              onclick="openModal(); currentSlide(7)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">Stencils</p>
           </li>
           <li class="px-2">
-            <a data-fslightbox href="./img/carousel8.jpg"
-              ><img
-                src="./img/carousel8.jpg"
-                class="img-fluid rounded carousel-img"
-                alt="3Dprint"
-            /></a>
+            <!-- <a data-fslightbox href="./img/carousel8.jpg"
+              > -->
+            <img
+              src="./img/carousel8.jpg"
+              onclick="openModal(); currentSlide(8)"
+              class="img-fluid rounded carousel-img"
+              data-bs-target="#myModal"
+              alt="3Dprint"
+            />
+            <!-- </a> -->
             <p class="carousel-txt py-3">Telescope mount</p>
           </li>
         </ul>
+
+        <!-- The Modal/Lightbox -->
+        <div
+          class="modal-content container-fluid min-vh-100 background px-5 d-none position-fixed modal show"
+          id="myModal"
+        >
+          <div class="navbar container-fluid d-flex justify-content-between pt-5">
+            <span>
+              <svg
+                class="full-screen"
+                id="fullScreenBtn"
+                onclick="fullScreen()"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-arrows-angle-expand"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"
+                />
+              </svg>
+              <svg
+                  class="exit-full-screen d-none"
+                  id="exitFullScreenBtn"
+                  onclick="closeFullScreen()"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-arrows-angle-contract"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707zM15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707z"
+                  />
+              </svg>
+            </span>
+            </span>
+            <span
+              class="close cursor"
+              id="close"
+              data-bs-dismiss="modal"
+              onclick="closeModal()"
+            >
+              <svg
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-x-lg img-fluid"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+                />
+              </svg>
+            </span>
+          </div>
+
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel1.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">War Dragon</h2>
+              <p>Material: UV Resin</p>
+              <p>Technology: SLA</p>
+              <p>Printer: Anycubic</p>
+              <p>Photon Mono X 4K</p>
+              <p>Model: Prusa3D</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel2.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">XYZ Cube</h2>
+              <p>Material: UV Resin</p>
+              <p>Technology: SLA</p>
+              <p>Printer: Anycubic</p>
+              <p>Photon Mono X 4K</p>
+              <p>Model: Custom</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel3.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">Jetbot chassis, camera mount & wheels</h2>
+              <p>Material: PLA</p>
+              <p>Technology: FDM</p>
+              <p>Printer: Creality</p>
+              <p>Ender 3 Pro</p>
+              <p>Model: NVidia</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel4.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">Benchy</h2>
+              <p>Material: PLA</p>
+              <p>Technology: FDM</p>
+              <p>Printer: Creality</p>
+              <p>Ender 3 Pro</p>
+              <p>Model: ct3d.xyz</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel5.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">Mecanum wheel</h2>
+              <p>Material: PLA</p>
+              <p>Technology: FDM</p>
+              <p>Printer: Creality</p>
+              <p>Ender 3 Pro</p>
+              <p>Model: HowToMechatronics</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel6.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">Print-In-Place Planetary Gear</h2>
+              <p>Material: PLA</p>
+              <p>Technology: FDM</p>
+              <p>Printer: Creality</p>
+              <p>Ender 3 Pro</p>
+              <p>Model: Prusa3D</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel7.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">Stencils</h2>
+              <p>Material: PLA</p>
+              <p>Technology: FDM</p>
+              <p>Printer: Creality</p>
+              <p>Ender 3 Pro</p>
+              <p>Model: Thingiverse</p>
+            </div>
+          </div>
+          <div
+            class="mySlides d-flex justify-content-between flex-column flex-md-row py-5 gap-5"
+          >
+            <div
+              class="lightbox-img-container col-12 col-md-8 d-flex justify-content-center ps-md-0 position-relative"
+            >
+              <img
+                class="img-fluid px-5 lightbox-img"
+                src="./img/carousel8.jpg"
+              />
+              <a class="prev position-absolute" onclick="plusSlides(-1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </a>
+              <a class="next position-absolute" onclick="plusSlides(1)">
+                <svg
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="info-txt container col-12 col-md-4 justify-content-center ps-5 py-md-5"
+            >
+              <h2 class="pb-5">Telescope mount</h2>
+              <p>Material: PLA</p>
+              <p>Technology: FDM</p>
+              <p>Printer: Creality</p>
+              <p>Ender 3 Pro</p>
+              <p>Model: Custom</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div
